@@ -68,7 +68,7 @@ public class Parser {
             System.out.println("Número de arestas: " + grafo.numEdges());
             System.out.println("Tipo do grafo: " + grafo.type());
             System.out.println("Lista de vértices: " + grafo.vertices());
-            System.out.println("É matriz de adjacência? " + (grafo instanceof AdjMatrixGraph));
+            System.out.println("É matriz de adjacência? " + String.valueOf(grafo instanceof AdjMatrixGraph).substring(0, 1).toUpperCase());
             
         }catch(IOException e){
             System.err.println("Erro ao ler o arquivo: " + e.getMessage());
