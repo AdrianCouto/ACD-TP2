@@ -1,4 +1,4 @@
-package classesUML;
+package tipoGrafo;
 public class Vertex {
     private final int id;
     private String label;

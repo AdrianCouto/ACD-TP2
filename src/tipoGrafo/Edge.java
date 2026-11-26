@@ -1,4 +1,4 @@
-package classesUML;
+package tipoGrafo;
 public class Edge {
     private final Vertex u;
     private final Vertex v;

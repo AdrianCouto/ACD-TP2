@@ -1,4 +1,4 @@
-package classesUML;
+package tipoGrafo;
 import java.util.List;
 
 public interface IGraph {
